@@ -336,7 +336,8 @@ button { font: inherit; }
   .footer-brand p { max-width: 350px; }
   .footer-column h3 { font-size: 16px; }
   .footer-column a { font-size: 13px; }
-  .contact-column { grid-column: 1 / -1; }
+  .contact-column { grid-column: 1 / -1; align-items: center; text-align: center; }
+  .contact-column a { justify-content: center; text-align: left; }
   .footer-bottom .wrap { min-height: 50px; font-size: 11px; }
 }
 
