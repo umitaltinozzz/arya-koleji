@@ -40,7 +40,7 @@ button { font: inherit; }
 .hero-copy { position: relative; z-index: 3; max-width: 570px; padding: 26px 0 14px; }
 .eyebrow { display: inline-flex; align-items: center; gap: 8px; color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: .14em; line-height: 1.4; }
 .eyebrow-dot { width: 7px; height: 7px; display: inline-block; border-radius: 50%; background: var(--red); box-shadow: 0 0 0 4px #e5413d36; }
-.hero h1 { margin: 22px 0 14px; max-width: 570px; font: 700 clamp(42px, 5.2vw, 68px)/1.06 var(--font-display); letter-spacing: -.04em; }
+.hero h1 { margin: 22px 0 14px; max-width: 570px; color: var(--red);font: 700 clamp(42px, 5.2vw, 68px)/1.06 var(--font-display); letter-spacing: -.04em; }
 .hero h1 span, .section-heading h2 span, .path-copy h2 span { color: var(--red); }
 .hero-copy > p { max-width: 480px; margin: 0; color: #6a6c71; font-size: 14px; line-height: 1.8; }
 .hero-actions { margin-top: 25px; display: flex; align-items: center; flex-wrap: wrap; gap: 18px; }
